@@ -42,8 +42,8 @@ class MainActivity : ComponentActivity() {
 fun AppNavigation(modifier: Modifier = Modifier) {
     val navController = rememberNavController()
     // Identitas mahasiswa (NIM dan Nama)
-    val nim = "225150601111000"
-    val nama = "Nama Mahasiswa"
+    val nim = "245150400111034"
+    val nama = "Dirga Yuditama"
 
     NavHost(
         navController = navController,
